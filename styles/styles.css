@@ -1,0 +1,83 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+}
+
+img {
+  max-width: 250px;
+}
+
+.header {
+  background: #eee;
+}
+
+h1, h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: normal;
+}
+.logo {
+  float: left;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 24px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.main-nav {
+  float: right;
+}
+
+.clear-fix {
+  clear: both;
+  overflow: auto;
+  display: table;
+}
+
+.main-nav a {
+  display: inline-block;
+  padding: 16px;
+  color: #444;
+  background: #ddd;
+  font-weight: bold;
+}
+
+.sidebar {
+  float: left;
+  width: 30%;
+  height: 900px;
+  background: #ddd;
+}
+
+.pet-name {
+  text-align: center;
+  padding: 16px;
+  border-bottom: 1px solid #444;
+}
+
+.pet-stats {
+  padding: 16px;
+}
+
+.main-content {
+  width: 70%;
+  float: right;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.intro {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.intro img {
+  float: left;
+  padding-right: 16px;
+}
+
+.gallery {
+  clear: both;
+  text-align: center;
+  padding-top: 32px;
+}
